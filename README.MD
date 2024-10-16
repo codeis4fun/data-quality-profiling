@@ -19,11 +19,11 @@ Ensure you have Go installed on your system. You can download it from [here](htt
 ### Installation
 Clone this repository:
 ```bash
-git clone https://github.com/codeis4fun/data-quality-profiling-engine.git
+git clone https://github.com/codeis4fun/data-quality-profiling.git
 ```
 Navigate to the project directory:
 ```bash
-cd data-quality-profiling-engine
+cd data-quality-profiling
 ```
 Install the dependencies:
 ```bash
