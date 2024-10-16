@@ -1,0 +1,64 @@
+[
+    {
+        "dimension": "Completeness",
+        "inputFields": {
+            "emptyCheck": "nome"
+        }
+    },
+    {
+        "dimension": "Completeness",
+        "inputFields": {
+            "emptyCheck": "idade"
+        }
+    },
+    {
+        "dimension": "Completeness",
+        "inputFields": {
+            "emptyCheck": "sexo"
+        }
+    },
+    {
+        "dimension": "Completeness",
+        "inputFields": {
+            "emptyCheck": "altura"
+        }
+    },
+    {
+        "dimension": "Completeness",
+        "inputFields": {
+            "emptyCheck": "peso"
+        }
+    },
+    {
+        "dimension": "Completeness",
+        "inputFields": {
+            "emptyCheck": "imc"
+        }
+    },
+    {
+        "dimension": "NameValidity",
+        "inputFields": {
+            "name": "nome"
+        }
+    },
+    {
+        "dimension": "AgeValidity",
+        "inputFields": {
+            "age": "idade"
+        }
+    },
+    {
+        "dimension": "GenderValidity",
+        "inputFields":{
+            "gender": "sexo"
+        }
+    },
+    {
+        "dimension": "BMIValidity",
+        "inputFields": {
+            "height": "altura",
+            "weight": "peso",
+            "bmi": "imc"
+        }
+    }
+]

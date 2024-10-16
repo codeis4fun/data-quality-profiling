@@ -1,0 +1,5 @@
+{"nome": "João", "idade": 25, "sexo": "M", "altura": 1.80, "peso": 80, "imc": 24.7}
+{"nome": "Maria", "idade": 30, "sexo": "feminino", "altura": 1.70, "peso": 60, "imc": 10}
+{"nome": "José", "idade": 35, "altura": 1.75, "sexo": "Masculino", "peso": 90, "imc": 20}
+{"nome": "Rafael", "idade": -1, "altura": 2.15, "sexo": "M", "peso": 160, "imc": 34.6}
+{}
