@@ -56,6 +56,9 @@ type AgeValidity struct {
 
 func (c AgeValidity) IsValidConfig() error {
 	r := c.Config.InputFields.Get("age")
+	if !r.Exists() {
+		return errors.New("field {age} is missing")
+	}
 	if r.Type != gjson.String {
 		return errors.New("field {age} is not a string")
 	}
