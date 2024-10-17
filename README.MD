@@ -77,7 +77,7 @@ Rules.json
 ```json
 [
   {
-    "name": "Completeness",
+    "dimension": "Completeness",
     "config": {
       "inputFields": {
         "emptyCheck": "name"
